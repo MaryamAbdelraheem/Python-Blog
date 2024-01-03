@@ -1,0 +1,11 @@
+<h1> {{post}}</h1>
+<a href="/blog/{{post.id}}/edit">edit</a>
+<a href="/blog/{{post.id}}/delete">delete</a>
+<hr>
+<p>{{post.content}}</p>
+<div>
+    <img src="{{post.image.url}}">
+</div>
+
+<p>{{post.author}}</p>
+<p>{{post.publish_date}}</p>
